@@ -18,3 +18,56 @@ html {
     max-width: 1200px;
     margin: 0 auto;
 }
+.border-black{
+    border: 2px dashed black;
+}
+
+/* header */
+header{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#add8e6 ;
+}
+.header-bar{
+    height: 80%;
+    width: 1000px;
+    display: flex;
+    background-color:#daa520 ;
+}
+.logo{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 1em;
+}
+.login{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* big scatola */
+.big-scatola{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color:#00008b;
+}
+.big-scatola-content{
+    height: 80%;
+    width: 55%;
+    background-color: #ee82ee;
+}
