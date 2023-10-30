@@ -17,6 +17,7 @@ html {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    width: 100%;;
 }
 .border-black{
     border: 2px dashed black;
@@ -70,4 +71,33 @@ nav ul{
     height: 80%;
     width: 55%;
     background-color: #ee82ee;
+}
+
+
+/* main */
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2em;
+}
+.section .white{
+    background-color: white;
+}
+.section .grey{
+    background-color: grey;
+}
+.p-cont{
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+.p-cont .blue{
+    width: 60%;
+    background-color: #1E90FF;
+}
+.p-cont .pink{
+    width: 40%;
+    background-color: #FFC0CB;
 }
