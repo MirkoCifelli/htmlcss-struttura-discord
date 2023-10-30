@@ -82,11 +82,11 @@ nav ul{
     width: 100%;
     padding: 2em;
 }
-.section .white{
+.section.white{
     background-color: white;
 }
-.section .grey{
-    background-color: grey;
+.section.grey{
+    background-color: #D3D3D3;
 }
 .p-cont{
     display: flex;
@@ -100,4 +100,13 @@ nav ul{
 .p-cont .pink{
     width: 40%;
     background-color: #FFC0CB;
+}
+.p-cont-big{
+    display: flex;
+    height: 550px;
+    width: 100%;
+}
+.p-cont-big .green{
+    width: 100%;
+    background-color: green;
 }
