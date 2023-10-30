@@ -22,6 +22,9 @@ html {
 .border-black{
     border: 2px dashed black;
 }
+.border-white{
+    border: 2px dashed white;
+}
 
 /* header */
 header{
@@ -109,4 +112,22 @@ nav ul{
 .p-cont-big .green{
     width: 100%;
     background-color: green;
+}
+/* footer */
+footer{
+    padding: 2em 0;
+    background-color: #212426;
+}
+.footer-colonne{
+    display: flex;
+    height: 450px;
+    background-color: #20B2AA;
+}
+.first-colonna{
+    width: 30%;
+    background-color: #F08080;
+}
+.other-colonna{
+    width: calc(70% /4);
+    background-color: #20B2AA;
 }
